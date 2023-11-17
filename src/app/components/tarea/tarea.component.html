@@ -1,0 +1,12 @@
+<div cdkScrollable class="example-list">
+  <div
+    class="example-box"
+    cdkDragBoundary=".example-list"
+    cdkDrag
+    *ngFor="let val of valor"
+  >
+    {{ val }}
+  </div>
+</div>
+
+<button (click)="addNew()">Agregar</button>
