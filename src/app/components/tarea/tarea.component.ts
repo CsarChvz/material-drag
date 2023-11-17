@@ -13,7 +13,6 @@ export class TareaComponent implements OnInit {
   ngOnInit(): void {}
 
   addNew() {
-    console.log('Se intenta agregar');
     this.valor.push((this.valor.length + 1).toString());
   }
 }
